@@ -1,31 +1,14 @@
-import React, { useEffect, useState } from "react";
-import list from "../../public/list.json";
+import React from 'react';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import axios from "axios";
-import Cards from "./Cards";
-function Freebook() {
-    const [book, setBook] = useState([]);
-    useEffect(() => {
-        const getBook = async () => {
-            try {
-                const res = await axios.get("http://localhost:4001/book");
+import Cards from '../components/Cards';
+import list from "../../public/list.json";
 
-                const filterData = res.list.filter((data) => data.category === "Free");
-                console.log(filterData);
-                setBook(filterData);
-            } catch (error) {
-                console.log(error);
-            }
-        };
-        getBook();
-    }, []);
+export default function Freebook() {
+    const filterData = list.filter((item) => item.category === "Free");
 
     var settings = {
-        dots: true,
-        infinite: false,
-        speed: 500,
         slidesToShow: 3,
         slidesToScroll: 3,
         initialSlide: 0,
@@ -37,46 +20,47 @@ function Freebook() {
                     slidesToScroll: 3,
                     infinite: true,
                     dots: true,
-                },
+                }
             },
             {
                 breakpoint: 600,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2,
-                    initialSlide: 2,
-                },
+                    initialSlide: 2
+                }
             },
             {
                 breakpoint: 480,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1,
-                },
-            },
-        ],
+                    slidesToScroll: 1
+                }
+            }
+        ]
     };
+
+
     return (
         <>
-            <div className=" max-w-screen-2xl container mx-auto md:px-20 px-4">
+            <div className='max-w-screen-2x1 container mx-auto md:px-20 px-4'>
                 <div>
-                    <h1 className="font-semibold text-xl pb-2">Free Offered Courses</h1>
+                    <h1 className='font-semibold text-x1 pb-2'>Free Offered Courses</h1>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Accusantium veritatis alias pariatur ad dolor repudiandae eligendi
-                        corporis nulla non suscipit, iure neque earum?
-                    </p>
-                </div>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium
+                        veritatis alias pariatur ad dolor repudiandaw wligendi corporis nulla
+                        non suscipit, iure neque earun?
+                    </p></div>
 
                 <div>
                     <Slider {...settings}>
-                        {book.map((item) => (
+                        {filterData.map((item) => (
                             <Cards item={item} key={item.id} />
-                        ))}
+                        ))
+                        }
                     </Slider>
                 </div>
             </div>
         </>
-    );
-} 
-export default Freebook;
+    )
+}
