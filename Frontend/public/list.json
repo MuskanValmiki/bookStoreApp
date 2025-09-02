@@ -5,7 +5,7 @@
         "title":"Lorem, ipsum dolow sit amet consectetur adipisicing elit.",
         "price":0,
         "category":"Free",
-        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1710521474~hmaC=c46c84fc93893df57bae823769fac9b4f2f6144b930b59d2848ab55d9f72b37&w=740"
+        "image":"https://m.media-amazon.com/images/I/71iKfowldWL._AC_UL320_.jpg"
     },
     {
         "id":2,
@@ -13,7 +13,7 @@
         "title":"Lorem, ipsum dolow sit amet consectetur adipisicing elit.",
         "price":20,
         "category":"Entainment",
-        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1710521474~hmaC=c46c84fc93893df57bae823769fac9b4f2f6144b930b59d2848ab55d9f72b37&w=740"
+        "image":"https://m.media-amazon.com/images/I/71f1L7q4ViL._AC_UL320_.jpg"
     },
     {
         "id":3,
@@ -21,7 +21,7 @@
         "title":"Lorem, ipsum dolow sit amet consectetur adipisicing elit.",
         "price":50,
         "category":"Sports",
-        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1710521474~hmaC=c46c84fc93893df57bae823769fac9b4f2f6144b930b59d2848ab55d9f72b37&w=740"
+        "image":"https://m.media-amazon.com/images/I/61-bHSPXTTL._AC_UL320_.jpg"
     },
     {
         "id":4,
@@ -29,7 +29,7 @@
         "title":"Lorem, ipsum dolow sit amet consectetur adipisicing elit.",
         "price":0,
         "category":"Free",
-        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1710521474~hmaC=c46c84fc93893df57bae823769fac9b4f2f6144b930b59d2848ab55d9f72b37&w=740"
+        "image":"https://m.media-amazon.com/images/I/81lIsG2kpeL._AC_UL320_.jpg"
     },
     {
         "id":5,
@@ -37,7 +37,7 @@
         "title":"Lorem, ipsum dolow sit amet consectetur adipisicing elit.",
         "price":100,
         "category":"Song",
-        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1710521474~hmaC=c46c84fc93893df57bae823769fac9b4f2f6144b930b59d2848ab55d9f72b37&w=740"
+        "image":"https://m.media-amazon.com/images/I/81Xq58nSFSL._AC_UL320_.jpg"
     },
     {
         "id":6,
@@ -45,7 +45,7 @@
         "title":"Lorem, ipsum dolow sit amet consectetur adipisicing elit.",
         "price":0,
         "category":"Free",
-        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1710521474~hmaC=c46c84fc93893df57bae823769fac9b4f2f6144b930b59d2848ab55d9f72b37&w=740"
+        "image":"https://m.media-amazon.com/images/I/81tXVF9zTqL._AC_UL480_FMwebp_QL65_.jpg"
     },
     {
         "id":7,
@@ -53,7 +53,7 @@
         "title":"Lorem, ipsum dolow sit amet consectetur adipisicing elit.",
         "price":0,
         "category":"Free",
-        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1710521474~hmaC=c46c84fc93893df57bae823769fac9b4f2f6144b930b59d2848ab55d9f72b37&w=740"
+        "image":"https://m.media-amazon.com/images/I/91mTEe9IEVL._AC_UL480_FMwebp_QL65_.jpg"
     },
     {
         "id":8,
@@ -61,7 +61,7 @@
         "title":"Lorem, ipsum dolow sit amet consectetur adipisicing elit.",
         "price":200,
         "category":"Food",
-        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1710521474~hmaC=c46c84fc93893df57bae823769fac9b4f2f6144b930b59d2848ab55d9f72b37&w=740"
+        "image":"https://m.media-amazon.com/images/I/81F4aVFGDWL._AC_UL480_FMwebp_QL65_.jpg"
     },
     {
         "id":9,
@@ -69,7 +69,7 @@
         "title":"Lorem, ipsum dolow sit amet consectetur adipisicing elit.",
         "price":0,
         "category":"Free",
-        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1710521474~hmaC=c46c84fc93893df57bae823769fac9b4f2f6144b930b59d2848ab55d9f72b37&w=740"
+        "image":"https://m.media-amazon.com/images/I/81lYmyWJBcL._AC_UL320_.jpg"
     },
     {
         "id":10,
@@ -77,7 +77,7 @@
         "title":"Lorem, ipsum dolow sit amet consectetur adipisicing elit.",
         "price":0,
         "category":"Free",
-        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1710521474~hmaC=c46c84fc93893df57bae823769fac9b4f2f6144b930b59d2848ab55d9f72b37&w=740"
+        "image":"https://m.media-amazon.com/images/I/81-n+wEunHL._AC_UL320_.jpg"
     },
     {
         "id":11,
@@ -85,6 +85,6 @@
         "title":"Lorem, ipsum dolow sit amet consectetur adipisicing elit.",
         "price":0,
         "category":"Free",
-        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1710521474~hmaC=c46c84fc93893df57bae823769fac9b4f2f6144b930b59d2848ab55d9f72b37&w=740"
+        "image":"https://m.media-amazon.com/images/I/71LWLkXMz2L._AC_UL320_.jpg"
     }
 ]
